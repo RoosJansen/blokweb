@@ -1,0 +1,155 @@
+html {
+    margin: 0;
+    padding: 0;
+    font: 100% "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.25em;
+    background-color: #ededed;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #73d601;
+    height: 5em;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+nav > img {
+    padding: 0.3em;
+    margin: 0;
+    width: 1.5em;
+}
+
+h1 {
+    font-size: 130%;
+    text-align: center;
+    align-self: center;
+    color: #fff;
+}
+
+h3 {
+    font-family: "Magistral", sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ededed;
+    margin: 0;
+}
+
+p {
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+#angstig {
+    display: block;
+    width: 100%;
+    height: 150em;
+    background-image: url("images/Paranoia%20mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+}
+
+#terugspoelen {
+    display: block;
+    width: 100%;
+    height: 75em;
+    background-image: url("images/Artboard%201.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+}
+
+#western {
+    display: block;
+    width: 100%;
+    height: 75em;
+    background-image: url("images/Western%20mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media all and (min-width: 40em) {
+
+    #angstig {
+        display: block;
+        max-width: 100%;
+        height: 90em;
+        background-image: url("images/Paranoia%20tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% top;
+    }
+    #terugspoelen {
+        display: block;
+        max-width: 100%;
+        height: 50em;
+        background-image: url("images/Artboard%202.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% top;
+    }
+    
+    #western {
+        display: block;
+        max-width: 100%;
+        height: 58em;
+        background-image: url("images/Western%20tablet.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100% top;
+    }
+
+    @media all and (min-width: 70em) {
+
+        #angstig {
+            display: block;
+            width: 100%;
+            height: 90em;
+            background-image: url("images/Paranoia%20web.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 100% top;
+        }
+
+        #terugspoelen {
+            display: block;
+            max-width: 100%;
+            height: 58em;
+            background-image: url("images/Artboard%203.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 100% top;
+        }
+
+        #western {
+            display: block;
+            max-width: 100%;
+            height: 160em;
+            background-image: url("images/Western%20web.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 100% top;
+        }
