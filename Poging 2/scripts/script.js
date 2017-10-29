@@ -22,7 +22,7 @@ var favorietButton = document.getElementsByClassName("heart");
 console.log(favorietButton);
 
 favorietButton.addEventListener('click', function(){
-    favorietButton.classList.toggle('faved');
+    favorietButton.classList.toggle('faved', true);
 });
 
 
