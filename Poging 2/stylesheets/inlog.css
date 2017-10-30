@@ -41,10 +41,16 @@ h1 {
     color: #fff;
 }
 
-form h2 {
+h2 {
+    font-size: 140%;
+    color: #73d601;
+    text-align: center;
+}
+
+form h3 {
     width: 100%;
     color: #ffab00;
-	margin-bottom: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 label {
@@ -75,9 +81,10 @@ input[type="submit"] {
 }
 
 /* Box shadow: https://codepen.io/joostf/pen/vXpkPN */
+
 input[type="submit"]:hover {
-  box-shadow: inset 0 -1em rgba(0,0,0,.04), 0 0 5px rgba(0,0,0,.5);
-  transition: all .2s;
+    box-shadow: inset 0 -1em rgba(0, 0, 0, .04), 0 0 5px rgba(0, 0, 0, .5);
+    transition: all .2s;
 }
 
 a {
@@ -86,31 +93,31 @@ a {
     font-size: 1em;
     margin-bottom: 1em;
     color: #000;
-    
+
 }
 
 form {
-  background-color: hsla(0, 0%, 100%, 0.3);
-  color: #73d601;
-  margin: auto;
-  max-width: 500px;
-  padding: 2em;
-  padding-bottom: 2em;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    color: #73d601;
+    margin: auto;
+    max-width: 500px;
+    padding: 2em;
+    padding-bottom: 2em;
     padding-top: 1em;
-  width: 70%;
-  box-shadow: 0 0 1px 2px rgba(0, 0, 0, .1);
-    border:none;
+    width: 70%;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, .1);
+    border: none;
 }
 
 label {
     width: 40%;
-	margin-bottom: 0.25em;
+    margin-bottom: 0.25em;
     border: none;
 }
 
 label:after {
-	content: "*";
-	color: red;
+    content: "*";
+    color: red;
 }
 
 input {
@@ -121,39 +128,38 @@ input {
 }
 
 form input:focus {
-	background-color: #efebeb;
+    background-color: #efebeb;
     padding: 0.5em;
 }
 
 form input:required {
-    background-color: rgba(0,0,0,.04)
-	
+    background-color: rgba(0, 0, 0, .04)
 }
 
 form input:invalid {
-	box-shadow: 0 2px 2px red; 
+    box-shadow: 0 2px 2px red;
 }
 
 form input:valid {
-	box-shadow: 0 2px 2px green;
+    box-shadow: 0 2px 2px green;
 }
 
 
 form input:focus {
-	background-color: cornsilk;
+    background-color: cornsilk;
 }
 
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 40em) {
-    
-	form h3 {
-		font-size: 1.5em;
-	}
-	
-	label {	
-		font-size: 1.3em;
-	}
+
+    form h3 {
+        font-size: 1.5em;
+    }
+
+    label {
+        font-size: 1.3em;
+    }
 
 
 
@@ -162,8 +168,7 @@ form input:focus {
 /* Desktop Media Queries */
 
 @media screen and (min-width: 70em) {
-	
-	form {
-		width: 60%;
-	}
-	
+
+    form {
+        width: 60%;
+    }

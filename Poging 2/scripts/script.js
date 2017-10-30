@@ -18,12 +18,16 @@ console.log(open);
 
 // Favorieten 
 
-var favorietButton = document.getElementsByClassName("heart");
-console.log(favorietButton);
+var filterButton = document.getElementById('checkbox');
+console.log(filterButton);
+var opties = document.getElementsByClassName('hidden');
+console.log(opties);
 
-favorietButton.addEventListener('click', function(){
-    favorietButton.classList.toggle('faved', true);
-});
+var toggleMenu = function () {
+    opties.classList.toggle('tonen');
+};
+
+filterButton.addEventListener('click', toggleMenu);
 
 
 

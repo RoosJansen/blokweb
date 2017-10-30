@@ -55,16 +55,19 @@ p {
     text-decoration: underline;
     text-align: center;
 }
+
+section:first-of-type{
+    display: flex;
+}
+
 button {
     display: block;
     margin: 1em auto;
-    padding: 0.3em;
-    width: 90%;
-    color: #ededed;
+    padding: 0.4em;
+    width: 2.5em;
     background-color: #ffab00;
-    font-size: 1.1em;
-    font-weight: bold;
-    border-radius: .5em;
+    font-size: 1.3em;
+    border-radius: 50%;
 }
 
 button:focus {

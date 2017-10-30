@@ -1,0 +1,31 @@
+HOI GOEBEL HEY 
+
+Je bent een held. 
+
+Oke dus wat ik moet doen zijn microinteracties maken voor m'n 'responsive' website 
+Als je de bestanden veel te kut vind mag je ook best de knoppen apart doen met javascript ernaast? 
+
+Mijn microinteracties zijn: 
+- Iets aan favorieten toevoegen
+- Iets beoordelen 
+- Iets downloaden 
+
+En dan ook nog dat filter wat niet werkt 
+Die opties onder filteren en sorteren moeten zichtbaar zijn als je op die woorden klikt, er mag nog een button naast eventueel of een hover als dat het makkelijker maakt 
+
+Bij favorieten moet er als er op de knop gedrukt word een kleine animatie afspelen met dan iets van feedback met 'je hebt dit verhaal aan je favorieten toegevoegd' 
+De afbeeldingen van de animatie heten; microhart1, microhart2, microhart3 en microhart 4 en staan in het /images mapje 
+
+Bij beoordelen precies hetzelfde verhaal 
+Als je op het duimpje of het kruisje drukt moet er een vinkje komen, dat bestand heet: check.png 
+met ook weer iets van feedback van; 'je hebt dit verhaal beoordeeld' 
+
+En bij downloaden (die knop staat bij angstig.html, terugspoelen.html en western.html) moet het even laden met laden1.png en laden2.png en dan een vinkje van check.png 
+en zo'n feedback venster met: 'Je hebt dit verhaal gedownload op dit device' 
+
+Is dit duidelijk?! Volgens mij niet he. 
+Laat maar weten als je er niks van snapt 
+en als het niet lukt maakt ook niet uit, stop er aub niet teveel tijd in 
+
+
+
