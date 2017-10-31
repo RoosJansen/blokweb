@@ -341,9 +341,8 @@ button:active {
         display: block;
         width: 100%;
         height: 30em;
-       
+        background-image: url("/images/footer-mobile.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
-
 }
