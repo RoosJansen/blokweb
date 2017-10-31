@@ -21,70 +21,79 @@
         </nav>
     </header>
 
-<form>
-    <input type="text" id="zoeken" placeholder="Zoek Direct">
-    <input type="submit" value="Zoeken">
-</form>
+    <form>
+        <input type="text" id="zoeken" placeholder="Zoek Direct">
+        <input type="submit" value="Zoeken">
+    </form>
 
-<form>
-<fieldset>Filteren
-   <legend></legend>
-    <legend>Genre</legend>
-    <label for="thriller"><input type="checkbox" id="thriller" value="thriller"> Thriller</label>
-    <label for="biografie"><input type="checkbox" id="biografie" value="biografie"> Biografie</label>
-    <label for="horror"><input type="checkbox" id="horror" value="horror"> Horror</label>
-    <label for="fictie"><input type="checkbox" id="fictie" value="fictie"> Fictie</label>
-    <label for="avontuur"><input type="checkbox" id="avontuur" value="avontuur"> Avontuur</label>
+    <form>
+        <fieldset>Filteren
+            <legend></legend>
+            <legend>Genre</legend>
+            <label for="thriller"><input type="checkbox" id="thriller" value="thriller"> Thriller</label>
+            <label for="biografie"><input type="checkbox" id="biografie" value="biografie"> Biografie</label>
+            <label for="horror"><input type="checkbox" id="horror" value="horror"> Horror</label>
+            <label for="fictie"><input type="checkbox" id="fictie" value="fictie"> Fictie</label>
+            <label for="avontuur"><input type="checkbox" id="avontuur" value="avontuur"> Avontuur</label>
 
-    <legend>Leestijd</legend>
-    <label for="min5minuten"><input type="checkbox" id="min5minuten" value="min 5 minuten"> -5 minuten</label>
-    <label for="meer5minuten"><input type="checkbox" id="meer5minuten" value="meer 5 minuten"> +5 minuten</label>
-    <label for="10minuten"><input type="checkbox" id="10minuten" value="10 minuten"> +10 minuten</label>
-    <label for="20minuten"><input type="checkbox" id="20minuten" value="20 minuten"> +20 minuten</label>
-    <label for="20minuten"><input type="checkbox" id="20minuten" value="20 minuten"> +20 minuten</label>
-    <label for="30minuten"><input type="checkbox" id="30minuten" value="30 minuten"> +30 minuten</label>
+            <legend>Leestijd</legend>
+            <label for="min5minuten"><input type="checkbox" id="min5minuten" value="min 5 minuten"> -5 minuten</label>
+            <label for="meer5minuten"><input type="checkbox" id="meer5minuten" value="meer 5 minuten"> +5 minuten</label>
+            <label for="10minuten"><input type="checkbox" id="10minuten" value="10 minuten"> +10 minuten</label>
+            <label for="20minuten"><input type="checkbox" id="20minuten" value="20 minuten"> +20 minuten</label>
+            <label for="20minuten"><input type="checkbox" id="20minuten" value="20 minuten"> +20 minuten</label>
+            <label for="30minuten"><input type="checkbox" id="30minuten" value="30 minuten"> +30 minuten</label>
 
-    <legend>Leeftijd</legend>
-    <label for="6tot14"><input type="checkbox" id="6tot14" value="6tot14"> 6 tot 14 jaar</label>
-    <label for="15tot19"><input type="checkbox" id="15tot19" value="15tot19"> 15 tot 19 jaar</label>
-    <label for="20tot25"><input type="checkbox" id="20tot25" value="20tot25"> 20 tot 25 jaar</label>
-    <label for="26tot40"><input type="checkbox" id="26tot40" value="26tot40"> 26 tot 40 jaar</label>
-    <label for="40+"><input type="checkbox" id="40+" value="40+"> 40+ jaar</label>
-</fieldset>
+            <legend>Leeftijd</legend>
+            <label for="6tot14"><input type="checkbox" id="6tot14" value="6tot14"> 6 tot 14 jaar</label>
+            <label for="15tot19"><input type="checkbox" id="15tot19" value="15tot19"> 15 tot 19 jaar</label>
+            <label for="20tot25"><input type="checkbox" id="20tot25" value="20tot25"> 20 tot 25 jaar</label>
+            <label for="26tot40"><input type="checkbox" id="26tot40" value="26tot40"> 26 tot 40 jaar</label>
+            <label for="40+"><input type="checkbox" id="40+" value="40+"> 40+ jaar</label>
+        </fieldset>
 
-<fieldset> Sorteren
-    <label for="alfabetisch"><input type="radio" id="alfabetisch" value="alfabetisch" name="sorteren"> Alfabetisch</label>
-    <label for="numeriek"><input type="radio" id="numeriek" value="numeriek" name="sorteren"> Numeriek</label>
-    <label for="datum"><input type="radio" id="datum" value="datum" name="sorteren"> Datum</label>
-    <label for="populariteit"><input type="radio" id="populariteit" value="populariteit" name="sorteren"> Populariteit</label>
-    <label for="leesduur"><input type="radio" id="leesduur" value="leesduur" name="sorteren"> Leesduur</label>
-</fieldset>
-</form>
-   
+        <fieldset> Sorteren
+            <label for="alfabetisch"><input type="radio" id="alfabetisch" value="alfabetisch" name="sorteren"> Alfabetisch</label>
+            <label for="numeriek"><input type="radio" id="numeriek" value="numeriek" name="sorteren"> Numeriek</label>
+            <label for="datum"><input type="radio" id="datum" value="datum" name="sorteren"> Datum</label>
+            <label for="populariteit"><input type="radio" id="populariteit" value="populariteit" name="sorteren"> Populariteit</label>
+            <label for="leesduur"><input type="radio" id="leesduur" value="leesduur" name="sorteren"> Leesduur</label>
+        </fieldset>
+    </form>
+
     <section>
         <button>Verras Me</button>
     </section>
 
+    <section>
+        <h2>99 verhalen</h2>
+    </section>
+
     <main>
+
         <article>
-            <a href="terugspoelen.html"><h3>Terugspoelen</h3></a>
+            <a href="terugspoelen.html">
+                <h3>Terugspoelen</h3>
+            </a>
             <p> 2 februari 2011, + 5 minuten #ingewikkeld</p>
-            <img src="images/" alt="bos met weg" href="/terugspoelen.html">
+            <a href=/terugspoelen.html><img src="images/thumbnailterugspoelen.jpg" alt="terugspoelen"> </a>
             <footer>
-                <button><img src="images/duimgroen.png"></button>
-                <button><img class="hidden" src="images/hartgroen.png"><img class="active" src="images/microhart.gif"></button>
+                <button><img src="images/duimgroen.gif"></button>
+                <button><img class="hidden" src="images/microhartgroen.gif"><img class="active" src="images/microhart.gif"></button>
                 <button><img src="images/kruisgroen.png"></button>
                 <p><img src="images/duim.png">567 likes</p>
             </footer>
         </article>
 
         <article>
-            <a href="angstig.html"><h3>Paranoia</h3></a>
+            <a href="angstig.html">
+                <h3>Paranoia</h3>
+            </a>
             <p> 4 februari 2011, 10 minuten #spannend</p>
-            <img src="images/foto7.jpg" alt="bergen en weg" href="">
+            <a href=/angstig.html><img src="images/thumbnailparanoia.jpg" alt="paranoia"> </a>
             <footer>
-                <button><img src="images/duimoranje.png"></button>
-                <button id="heart"><img src="images/hartoranje.png"></button>
+                <button><img src="images/duimoranje.gif"></button>
+                <button id="heart"><img src="images/microharoranje.gif"></button>
                 <button><img src="images/kruisoranje.png"></button>
                 <p><img src="images/duim.png">25 likes</p>
             </footer>
@@ -92,12 +101,14 @@
         </article>
 
         <article>
-            <a href="western.html"><h3>Western</h3></a>
+            <a href="western.html">
+                <h3>Western</h3>
+            </a>
             <p> 8 februari 2011, +5 minuten #grappig </p>
-            <img src="images/foto6.jpg" alt="brug en bergen" href="">
+            <a href=/western.html><img src="images/thumbnailwestern.jpg" alt="western"> </a>
             <footer>
-                <button><img src="images/duimoranje.png"></button>
-                <button id="heart"><img src="images/hartoranje.png"></button>
+                <button><img src="images/duimoranje.gif"></button>
+                <button id="heart"><img src="images/microharoranje.gif"></button>
                 <button><img src="images/kruisoranje.png"></button>
                 <p><img src="images/duim.png">25 likes</p>
             </footer>
@@ -108,56 +119,64 @@
             <p> 2 februari 2011, 5 minuten, </p>
             <img src="images/foto5.jpg" alt="bergen met een weg" href="">
             <footer>
-                <button><img src="images/duimgroen.png"></button>
-                <button id="heart"><img src="images/hartgroen.png"></button>
+                <button><img src="images/duimgroen.gif"></button>
+                <button id="heart"><img src="images/microhartgroen.gif"></button>
                 <button><img src="images/kruisgroen.png"></button>
                 <p><img src="images/duimgroen.png">25 likes</p>
             </footer>
         </article>
 
         <article>
-            <a href=""><h3>Verhalend</h3></a>
+            <a href="">
+                <h3>Verhalend</h3>
+            </a>
             <p> 2 februari 2011, 5 minuten, </p>
             <img src="images/foto4.jpg" alt="woestijn met weg" href="">
             <footer>
-                <button><img src="images/duimoranje.png"></button>
-                <button id="heart"><img src="images/hartoranje.png"></button>
+                <button><img src="images/duimoranje.gif"></button>
+                <button id="heart"><img src="images/microharoranje.gif"></button>
                 <button><img src="images/kruisoranje.png"></button>
                 <p><img src="images/duim.png">25 likes</p>
             </footer>
         </article>
 
         <article>
-            <a href=""><h3>Hardboiled</h3></a>
+            <a href="">
+                <h3>Hardboiled</h3>
+            </a>
             <p> 2 februari 2011, 5 minuten, </p>
             <img src="images/foto3.jpg" alt="bergen en een weg" href="">
             <footer>
-                <button><img src="images/duimgroen.png"></button>
-                <button id="heart"><img src="images/hartgroen.png"></button>
+                <button><img src="images/duimgroen.gif"></button>
+                <button id="heart"><img src="images/microhartgroen.gif"></button>
                 <button><img src="images/kruisgroen.png"></button>
-                <p><img  src="images/duim.png">25 likes</p>
+                <p><img src="images/duim.png">25 likes</p>
             </footer>
         </article>
 
         <article>
-            <a href=""><h3>Woordenrally</h3></a>
+            <a href="">
+                <h3>Woordenrally</h3>
+            </a>
             <p> 2 februari 2011, 5 minuten, </p>
             <img src="images/foto2.jpg" alt="schimmige berg met een weg" href="">
             <footer>
-                <button><img src="images/duimoranje.png"></button>
-                <button id="heart"><img src="images/hartoranje.png"></button>
+                <button><img src="images/duimoranje.gif"></button>
+                <button id="heart"><img src="images/microharoranje.gif"></button>
                 <button><img src="images/kruisoranje.png"></button>
                 <p><img src="images/duim.png">25 likes</p>
             </footer>
         </article>
 
         <article>
-            <a href=""><h3>Twitter</h3></a>
+            <a href="">
+                <h3>Twitter</h3>
+            </a>
             <p> 2 februari 2011, 5 minuten, </p>
             <img src="images/foto1.jpg" alt="ondergaande zon met gras" href="">
             <footer>
-                <button><img src="images/duimgroen.png"></button>
-                <button id="heart"><img src="images/hartgroen.png"></button>
+                <button><img src="images/duimgroen.gif"></button>
+                <button id="heart"><img src="images/microhartgroen.gif"></button>
                 <button><img src="images/kruisgroen.png"></button>
                 <p><img src="images/duim.png">25 likes</p>
             </footer>

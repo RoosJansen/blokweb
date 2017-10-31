@@ -61,9 +61,9 @@ hartButton.addEventListener('click', vullendHart);
 */
 
 
-var vulHart = document.getElementsByClassName('hidden');
-var vulHartje = vulHart;
-console.log(vulHart);
+var hartAnimatie = document.getElementsByClassName('hidden');
+var vulHart = hartAnimatie;
+console.log(hartAnimatie);
 
 /*
 var favoriet = function() {
@@ -72,12 +72,9 @@ var favoriet = function() {
 };
 */
 
-function favoriet () {
-    vulHartje.classList.toggle('active');
-    vulHartje.addEventListener('click', favoriet);
+function favoriet() {
+    vulHart.classList.toggle('active');
+    vulHart.addEventListener('click', favoriet);
 }
 
-console.log(vulHartje);
-
-
-
+console.log(hartAnimatie);
