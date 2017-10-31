@@ -17,6 +17,7 @@ header {
     justify-content: space-between;
     background-color: #73d601;
     height: 5em;
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -25,13 +26,12 @@ nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 nav img {
-    padding: 0.3em;
-    margin: 0;
-    width: 1.5em;
+    min-width: 100%;
+    margin-right: 0.2em;
 }
 
 h1 {
@@ -204,8 +204,7 @@ article:nth-child(even) {
 
 article > img {
     display: block;
-    width: 80%;
-    max-width: 100%;
+    width: 100%;
     margin: auto;
     padding: 0.3em;
 }
@@ -244,7 +243,6 @@ button:active {
     transition: all .2s;
 }
 
-
 #hidden {
     display: block;
 }
@@ -280,11 +278,11 @@ button:active {
         background-color: #ffab00;
     }
 
-    footer:nth-child(6) {
+    footer:nth-child(7) {
         display: block;
         width: 100%;
         height: 15em;
-        background-image: url("/images/footer-mobile.png");
+        background-image: url("/images/footer.png");
         background-size: cover;
     }
 
@@ -337,11 +335,11 @@ button:active {
         background-color: #ffab00;
     }
 
-    footer:nth-child(6) {
+    footer:nth-child(7) {
         display: block;
         width: 100%;
-        height: 30em;
-        background-image: url("/images/footer-mobile.png");
+        height: 34em;
+        background-image: url("/images/footer.png");
         background-size: cover;
         background-repeat: no-repeat;
     }
